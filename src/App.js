@@ -106,7 +106,7 @@ export default function App() {
       <h3>Notes List</h3>
       {noteList.map((note, index) => {
         return (
-          <div className="row container">
+          <div key={note.title} className="row container">
             <img src={logo} alt="icon" />
             <div className="row-des">
               <div className="row-title">{note.title}</div>
