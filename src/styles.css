@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input,
+textarea,
+button {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+input {
+  width: 60%;
+  max-width: 600px;
+  height: 2rem;
+}
+textarea {
+  height: 8rem;
+  width: 60%;
+  max-width: 600px;
+}
+button {
+  padding: 0.5rem;
+  background-color: blueviolet;
+  color: white;
+}
+.container {
+  width: 60%;
+  max-width: 600px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.row img {
+  height: 60px;
+}
+.row-des {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.row-des small {
+  text-align: left;
+}
+.row-control {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 100%;
+}
+.row-control button {
+  margin: 0;
+}
